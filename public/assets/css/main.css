@@ -13,7 +13,7 @@
 		margin: 0;
 		padding: 0;
 		border: 0;
-		font-size: 100%;
+		font-size: 75%;
 		font: inherit;
 		vertical-align: baseline;
 	}
@@ -1642,7 +1642,7 @@
 	body, input, select, textarea {
 		color: #585858;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16pt;
+		font-size: 11pt;
 		font-weight: 300;
 		line-height: 1.75;
 	}
@@ -1650,7 +1650,7 @@
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -1658,7 +1658,7 @@
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 11pt;
 			}
 
 		}
@@ -1692,10 +1692,10 @@
 
 	h1 {
 		font-size: 2.75em;
-		font-weight: 700;
+		font-weight: 500;
 		line-height: 1.3;
 		margin: 0 0 1em 0;
-		letter-spacing: -0.035em;
+		letter-spacing: -0.075em;
 	}
 
 		h1 a {
@@ -1720,7 +1720,7 @@
 		}
 
 	h2, h3, h4, h5, h6 {
-		font-weight: 900;
+		font-weight: 700;
 		line-height: 1.5;
 		margin: 0 0 2em 0;
 		text-transform: uppercase;
@@ -1732,23 +1732,23 @@
 		}
 
 	h2 {
-		font-size: 1.1em;
-	}
-
-	h3 {
 		font-size: 1em;
 	}
 
+	h3 {
+		font-size: .8em;
+	}
+
 	h4 {
-		font-size: 0.8em;
+		font-size: 0.75em;
 	}
 
 	h5 {
-		font-size: 0.8em;
+		font-size: 0.75em;
 	}
 
 	h6 {
-		font-size: 0.8em;
+		font-size: 0.75em;
 	}
 
 	@media screen and (max-width: 980px) {
@@ -1917,7 +1917,7 @@
 		}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
@@ -3239,6 +3239,7 @@
 				}
 
 				#footer > .inner .copyright li {
+					list-style-type:none
 					display: inline-block;
 					border-left: solid 1px rgba(88, 88, 88, 0.15);
 					line-height: 1;
@@ -3247,6 +3248,7 @@
 				}
 
 					#footer > .inner .copyright li:first-child {
+						list-style-type:none
 						border-left: 0;
 						padding-left: 0;
 						margin-left: 0;
@@ -3325,6 +3327,7 @@
 			}
 
 				#footer > .inner .copyright li {
+					list-style-type:none
 					border-left: 0;
 					padding-left: 0;
 					margin: 0.75em 0 0 0;
