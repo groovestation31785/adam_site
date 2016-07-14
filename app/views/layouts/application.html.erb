@@ -10,26 +10,51 @@
 	  	<link rel="stylesheet" href="assets/css/main.css" />	
 </head>
   <body>
-		<nav class="navbar navbar-default navbar-static-top" role="navigation">
-		  <div class='container'>
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav-collapse">
-		       
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		    <%= link_to 'Adam Frankenfeld', root_path, class: 'navbar-brand' %>
-										
-		    </div>
-		    <div class="collapse navbar-collapse" id="main-nav-collapse">
-		      <ul class="nav navbar-nav navbar-right">
-		        <li></li>
-		      </ul>
-		    </div><!-- /.navbar-collapse -->
-		  </div>
-		</nav>
+  	
+  	<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<%= link_to root_path do %>
+									<span class="symbol">
+										<div class="icon">
+											<img src="images/icon2.jpg" alt="" />
+												<h5>Adam Frankenfeld</h5>
+										</div>
+									</span>
+								<% end %>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><%= link_to root_path do %>Home<% end %></li>
+							<li><%= link_to about_path do %>About<% end %></li>
+							<li><%= link_to documentary_path do %>Beneath the Skin<% end %></li>
+							<li><%= link_to drama_path do %>Christian Drama Videos<% end %></li>
+							<li><%= link_to radio_path do %>African Trauma Radio<% end %></li>
+							<li><%= link_to inspector_hound_path do %>The Real Inspector Hound<% end %></li>
+							<li><%= link_to enraged_path do %>The Enraged<% end %></li>
+							<li><%= link_to couch_show_path do %>The Couch Co-Op Show<% end %></li>
+							<li><%= link_to resume_path do %>Resume<% end %></li>
+							<li><%= link_to letters_path do %>Letters of Recommedation<% end %></li>
+						</ul>
+					</nav>
+
+	
 		
 		<%= yield %>
 		

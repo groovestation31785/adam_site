@@ -2871,16 +2871,19 @@
 			#header .logo > * {
 				display: inline-block;
 				vertical-align: middle;
+				text-decoration: none
 			}
 
 			#header .logo .symbol {
 				margin-right: 0.65em;
+				text-decoration: none
 			}
 
 				#header .logo .symbol img {
 					display: block;
 					width: 2em;
 					height: 2em;
+					text-decoration: none
 				}
 
 		#header nav {
