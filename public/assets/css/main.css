@@ -1726,11 +1726,16 @@
 		text-transform: uppercase;
 		letter-spacing: 0.35em;
 		text-decoration: none;
+
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
+<<<<<<< HEAD
 			text-decoration: none;
+=======
+			text-decoration: none
+>>>>>>> site_pages
 		}
 
 	h2 {
