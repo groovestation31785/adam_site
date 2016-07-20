@@ -1725,12 +1725,17 @@
 		margin: 0 0 2em 0;
 		text-transform: uppercase;
 		letter-spacing: 0.35em;
-		text-decoration: none
+		text-decoration: none;
+
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
+<<<<<<< HEAD
+			text-decoration: none;
+=======
 			text-decoration: none
+>>>>>>> site_pages
 		}
 
 	h2 {
@@ -1751,6 +1756,7 @@
 
 	h6 {
 		font-size: 0.75em;
+		text-decoration: none;
 	}
 
 	@media screen and (max-width: 980px) {
@@ -2851,6 +2857,8 @@
 				}
 
 		}
+		
+
 
 /* Header */
 
