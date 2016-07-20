@@ -1,0 +1,6 @@
+/* Carousel Bootstrap Add-on */		
+ 
+	.carousel-inner > .item > img {
+ 			height: 250px;
+ 			margin: 0 auto
+ 	}
