@@ -11,9 +11,32 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+        <style type="text/css">
+            article {
+                -webkit-columns: 2 150px;
+                -moz-columns: 2 150px;
+                columns: 2 150px;
+                -webkit-column-gap: 2em;
+                -moz-column-gap: 2em;
+                column-gap: 2em;
+            }
+
+            p {
+                margin-bottom: 1.3em;
+            }
+
+            .no-break {
+                -webkit-column-break-inside: avoid; /* Chrome, Safari */
+                page-break-inside: avoid;           /* Theoretically FF 20+ */
+                break-inside: avoid-column;
+                display:table;
+
+            }
+    </style>
 	</head> 
 
-    
+     
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-3">
@@ -25,140 +48,146 @@
                 		</div>	
                     </strong>
                 </div>
-                <div class="col-xs-5 col-xs-offset-1">
+
+                <article>
                     <h5><strong>Why direct a one-act?</strong></h5>
                     <p>In the fall of 2014, I was given the opportunity to direct a one-act as my senior seminar project in the communications department at Trinity Christian College. While the idea of directing a show had never crossed my mind before, I jumped at the opportunity. One-acts at Trinity are a great way for seniors to demonstrate leadership in addition to many other skills needed for putting on a production. Other schools might treat one-acts as a lesser production, but Trinity emphasizes their importance as much as any other main stage production.</p>
                     <p><strong>About the Production</strong></p>
                     <p><i>The Real Inspector Hound</i> is a brilliant absurdist comedy. The show focuses around two theatre critics who are brought in to review a whodunnit murder mystery. As the show progresses, the critics are continually distracted by their own desires. One continually laments how he is the second string critic, while the other is swooned by the actresses wanting to take them out to a nice dinner, all while behind his wife's back. Eventually the two characters become apart of the performance they are reviewing, with an astonishing reveal of the real Inspector Hound.</p>
                     <p>The show had a cast of nine, with several technical aspects that required additional help from a stage manager, sound/light technician, and a stage crew member. The approximate run time was 70 minutes, with no intermission. The cast size and length was more extraneous than traditional one-acts at Trinity, but was able to be an exception and had the show approved.</p>
                     
-                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                      <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="7"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="8"></li>
-                        </ol>
                     
-                      <!-- Wrapper for slides -->
-                          <div class="carousel-inner" role="listbox">
-                            <div class="item active" >
-                                <img src="images/rih/ss1.jpg" alt="...">
-                                <div class="carousel-caption">
-                                    
-                                </div>
+                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                              <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+                                </ol>
                             
-                            </div>
-                            <div class="item">
-                                <img src="images/rih/ss2.jpg" alt="...">
-                                <div class="carousel-caption">
-                                    
-                                </div>
-                            </div>
+                              <!-- Wrapper for slides -->
+                                  <div class="carousel-inner" role="listbox">
+                                    <div class="item active" >
+                                        <img src="images/rih/ss1.jpg" alt="...">
+                                        <!--  <div class="carousel-caption">
                             
-                            <div class="item">
-                                <img src="images/rih/ss3.jpg" alt="...">
-                                <div class="carousel-caption">
+                                        </div> -->
                                     
-                                </div>
-                            </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/rih/ss2.jpg" alt="...">
+                                        <!--  <div class="carousel-caption">
                             
-                            <div class="item">
-                                <img src="images/rih/ss4.jpg" alt="...">
-                                <div class="carousel-caption">
+                                        </div> -->
+                                    </div>
                                     
-                                </div>
-                            </div>
+                                    <div class="item">
+                                        <img src="images/rih/ss3.jpg" alt="...">
+                                        <!--  <div class="carousel-caption">
                             
-                            
-                            <div class="item">
-                                <img src="images/rih/ss5.jpg" alt="...">
-                                <div class="carousel-caption">
+                                        </div> -->
+                                    </div>
                                     
-                                </div>
-                            </div>
+                                    <div class="item">
+                                        <img src="images/rih/ss4.jpg" alt="...">
+                                        <!--  <div class="carousel-caption">
                             
-                            <div class="item">
-                                <img src="images/rih/ss6.jpg" alt="...">
-                                <div class="carousel-caption">
+                                        </div> -->
+                                    </div>
                                     
-                                </div>
-                            </div>
+                                    
+                                    <div class="item">
+                                        <img src="images/rih/ss5.jpg" alt="...">
+                                        <!--  <div class="carousel-caption">
                             
-                            <div class="item">
-                                <img src="images/rih/ss7.jpg" alt="...">
-                                <div class="carousel-caption">
+                                        </div> -->
+                                    </div>
                                     
-                                </div>
-                            </div>
+                                    <div class="item">
+                                        <img src="images/rih/ss6.jpg" alt="...">
+                                        <!--  <div class="carousel-caption">
                             
-                            <div class="item">
-                                <img src="images/rih/ss8.jpg" alt="...">
-                                <div class="carousel-caption">
+                                        </div> -->
+                                    </div>
                                     
+                                    <div class="item">
+                                        <img src="images/rih/ss7.jpg" alt="...">
+                                        <!--  <div class="carousel-caption">
+                            
+                                        </div> -->
+                                    </div>
+                                    
+                                    <div class="item">
+                                        <img src="images/rih/ss8.jpg" alt="...">
+                                        <!--  <div class="carousel-caption">
+                            
+                                        </div> -->
+                                    </div>
+                               
+                               
                                 </div>
+                        
+                                <!-- Controls -->
+                                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only"></span>
+                                </a>
+                                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only"></span>
+                                </a>
                             </div>
-                       
-                       
-                        </div>
-                
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                    
+                        
                     <div>
                         <br />
-                        <img src="images/rih/rih1.jpg" width="385" height="250" />
+                        <img src="images/rih/rih1.jpg" width="100%" height="auto" />
                         <p>The set for <i>The Real Inspector Hound</i></p>
                         
-                        <img src="images/rih/rih2.jpg" width="385" height="250" />
+                        <img src="images/rih/rih2.jpg" width="100%" height="auto" />
                         <p>Dramaturgy for <i>The Real Inspector Hound</i></p>
                     </div>  
-                </div>
+                
               
                    
-                <div class="col-xs-4 ">.
-                   <img src="images/rih/poster.jpg" width="550" height="825" />
-                   <p>The poster I designed with editing help from Derek VanAlthuis</p>
-                    <div>
-                        <h4>Experiences gained:</h4>
-                        <p>I had several responsibilities to manage since I was in complete control of the show.</p>
-                        <ul>
-                            <li type="square">Held auditions and callbacks with other the other directors this semester. This process spanned about 20 hours over the course of two days.</li>
-                            <li type="square">Set up practice schedule that would work around everyone's free time, and led each practice with a general goal for the night.</li>
-                            <li type="square">Managed and oversaw the budget for the production, and carefully used the full $500 we were provided. You can view my budget here.</li>
-                            <li type="square">Responsible for designing the set. The audience configuration placed the stage in the corner, and I based the overall set so that it would be convenient for the entire audience.</li>
-                            <li type="square">Created the blocking (movement) for the actors, and worked with them to establish the interpretation of their characters.</li>
-                            <li type="square">Found a publicist and worked with her to establish a calendar for promoting the show through several different means.</li>
-                            <li type="square">Contacted a photographer for publicity photos, and chose locations that fitted the overall feel of the show.</li>
-                            <li type="square">Worked at solving conflict between actors, and focused on collaborating a strong performance by bringing different kinds of individuals together as a whole for the show.</li>
-                            <li type="square">Designed the overall concept of the poster (seen above), and received photoshop assistance from a fellow student.</li>
-                            <li type="square">Worked with the AV department on campus to record the show with three different cameras on a live switcher.</li>
-                            <li type="square">Designed all aspects of the sound by building sound effects through different channels, creating old radio broadcasts, and picking pre-show music that matched the theme.</li>
-                            <li type="square">Built a dramaturgy that was displayed at the entrance to the theatre.</li>
-                            <li type="square">Compiled bios, photos, and wrote the directors note for the performance's program, which can be viewed here.</li>
-                        </ul>
+                
+                   
+                    <div class="no-break">
+
+                        <img src="images/rih/poster.jpg" width="100%" height="auto" />
+                        <p>The poster I designed with editing help from Derek VanAlthuis</p>
+
+                            <h4>Experiences gained:</h4>
+                            <p>I had several responsibilities to manage since I was in complete control of the show.</p>
+                            <ul>
+                                <li type="square">Held auditions and callbacks with other the other directors this semester. This process spanned about 20 hours over the course of two days.</li>
+                                <li type="square">Set up practice schedule that would work around everyone's free time, and led each practice with a general goal for the night.</li>
+                                <li type="square">Managed and oversaw the budget for the production, and carefully used the full $500 we were provided. You can view my budget here.</li>
+                                <li type="square">Responsible for designing the set. The audience configuration placed the stage in the corner, and I based the overall set so that it would be convenient for the entire audience.</li>
+                                <li type="square">Created the blocking (movement) for the actors, and worked with them to establish the interpretation of their characters.</li>
+                                <li type="square">Found a publicist and worked with her to establish a calendar for promoting the show through several different means.</li>
+                                <li type="square">Contacted a photographer for publicity photos, and chose locations that fitted the overall feel of the show.</li>
+                                <li type="square">Worked at solving conflict between actors, and focused on collaborating a strong performance by bringing different kinds of individuals together as a whole for the show.</li>
+                                <li type="square">Designed the overall concept of the poster (seen above), and received photoshop assistance from a fellow student.</li>
+                                <li type="square">Worked with the AV department on campus to record the show with three different cameras on a live switcher.</li>
+                                <li type="square">Designed all aspects of the sound by building sound effects through different channels, creating old radio broadcasts, and picking pre-show music that matched the theme.</li>
+                                <li type="square">Built a dramaturgy that was displayed at the entrance to the theatre.</li>
+                                <li type="square">Compiled bios, photos, and wrote the directors note for the performance's program, which can be viewed here.</li>
+                            </ul>
                        
+                        
                     </div>
+                </article>  
                     
-                    
-                </div>
+                
             </div>
             
-                <p style="text-align:center;"><img src="images/rih/rih3.jpg" width="850px" height="590px" style="vertical-align:middle"></p>
+                <p style="text-align:center;"><img src="images/rih/rih3.jpg" width="100%" height="auto" ></p>
                 <p style="text-align:center;"><strong>The main cast and the director</strong></p>
                 
         </div>

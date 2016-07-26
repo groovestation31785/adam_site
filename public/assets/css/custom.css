@@ -1,14 +1,14 @@
-/* Carousel Bootstrap Add-on */		
+/* Carousel Bootstrap Add-on */		         
  
 
 
-	.carousel-inner > .item > img {
- 			height: 250px;
- 			margin: 0 auto
- 	}
- 	
- 	
- 	.carousel-indicators {
+      .carousel-inner > .item > img {
+                  height: 250px;
+                  margin: 0 auto
+      }
+      
+      
+      .carousel-indicators {
             position: absolute;
             bottom: -25px;
             left: 50%;
@@ -18,4 +18,4 @@
             padding-left: 0;
             list-style: none;
             text-align: center;
- 	}
+      }

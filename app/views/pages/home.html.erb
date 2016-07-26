@@ -11,7 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/application.css.scss" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" media="all and (max-width: 1680px)" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/custom.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -53,12 +53,23 @@
 								
 								<article class="style4">
 									<span class="image">
-										<img src="images/4atr.png" alt="" />
+										<img src="images/3atr.png" alt="" />
 									</span>
 									<%= link_to radio_path do %>
 										<h2>African Trauma Radio</h2>
 										<div class="content">
 											<p>Contract project for the people of Africa</p>
+										</div>
+									<% end %>
+								</article>
+								<article class="style2">
+									<span class="image">
+										<img src="images/4personal.jpg" alt="" />
+									</span>
+									<%= link_to personal_path do %>
+										<h2>Personal</h2>
+										<div class="content">
+											<p>My freelance projects</p>
 										</div>
 									<% end %>
 								</article>
