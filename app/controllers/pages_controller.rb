@@ -8,7 +8,7 @@ class PagesController < ApplicationController
     def documentary
     end
     
-    def drama
+    def personal
     end
     
     def radio
