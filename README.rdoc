@@ -1,11 +1,11 @@
-== README
+= README
 
 The first web application that challenged my skills as a new web developer. This is a website portfolio for a close friend.
 I used his information from a previous site and attempted to make a new one from scratch. I worked to make it as mobile-friendly as possibly. It is not perfect: I did not fully understand how the Rails Asset Pipeline worked; and there are not tests. However for someone who was new to technology, this was a big accomplishment. I am proud of the work I did.
 
-Technologies used:
+==Technologies used:
 
-###Front-End
+=== Front-End
 * HTML5
 * CSS3
 * SCSS
@@ -13,13 +13,13 @@ Technologies used:
 * JavaScript
 * jQuery
 
-###Back-End
+=== Back-End
 * Ruby on Rails
 * Action Mailer
 * SQLite3
 * PostgreSQL
 
-###Deployment
+=== Deployment
 * Heroku
 * SendGrid
 
