@@ -1,28 +1,26 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The first web application that challenged my skills as a new web developer. This is a website portfolio for a close friend.
+I used his information from a previous site and attempted to make a new one from scratch. I worked to make it as mobile-friendly as possibly. It is not perfect: I did not fully understand how the Rails Asset Pipeline worked; and there are not tests. However for someone who was new to technology, this was a big accomplishment. I am proud of the work I did.
 
-Things you may want to cover:
+Technologies used:
 
-* Ruby version
+###Front-End
+* HTML5
+* CSS3
+* SCSS
+* Bootstrap
+* JavaScript
+* jQuery
 
-* System dependencies
+###Back-End
+* Ruby on Rails
+* Action Mailer
+* SQLite3
+* PostgreSQL
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+###Deployment
+* Heroku
+* SendGrid
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
