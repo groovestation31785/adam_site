@@ -24,6 +24,6 @@ I used his information from a previous site and attempted to make a new one from
 * SendGrid
 
 
-Check it out [here](https://adam-frankenfeld.herokuapp.com/)!
+Check it out at https://adam-frankenfeld.herokuapp.com/
 
 
